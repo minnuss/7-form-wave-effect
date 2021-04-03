@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Form wave effect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="form">
+        <h1 class="form--title">Please Login</h1>
+        <div class="form__content">
+            <form class="form__content__box">
+                <div class="form__content__box--input">
+                    <input class="input" type="email" required>
+                    <!-- label needs to be under input, so it can be styled when input is selected -->
+                    <label class="label" for="email">Email</label>
+                </div>
+
+                <div class="form__content__box--input">
+                    <input class="input" type="password" required>
+                    <label class="label" for="password">Password</label>
+                </div>
+
+                <div class="form__content__box--btn">
+                    <button class="btn">Login</button>
+                </div>
+
+                <div class="form__content__box--para">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
